@@ -1,1 +1,3 @@
-Testing  auto-commit to my repository
+Testing  auto-commit to my repository - > Testing was  failed.
+
+Second Test of automatisation
