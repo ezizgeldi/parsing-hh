@@ -1,3 +1,6 @@
 Testing  auto-commit to my repository - > Testing was  failed.
 
-Second Test of automatisation
+Second Test of automatisation - > success
+
+
+inotifywait -q -m -e CLOSE_WRITE --format="git commit -m 'autocommit on change' %w && git push origin main" test.txt | bash
